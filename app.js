@@ -19,6 +19,9 @@ app.get('/baguker',(req,res)=>{
 app.get('/game',(req,res)=>{
     res.render('game')
 })
+app.get('/login',(req,res)=>{
+    res.render('login')
+})
 
 app.listen(port,()=>{
     console.log(`App is listening to Port ${port}`)
